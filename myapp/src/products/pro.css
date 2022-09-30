@@ -1,0 +1,40 @@
+.cerocap{
+    /* transform: translateY(-50%)
+     */
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translateX(-50%);
+
+}
+.cero_img img{
+    position: relative;
+}
+.cero_item .carousel-indicators {
+    align-items: end;
+}
+.pro_card_con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.pro_card img{
+    width:60%
+}
+.ability{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ability img{
+    width:5%
+}
+.Sort_pro{
+    border:0px;
+    outline:0px;
+}
+
+.sort_box{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}

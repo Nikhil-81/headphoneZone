@@ -1,0 +1,299 @@
+{
+  "HEADPHONES_FOR_BIGINNERS": [
+    {
+      "id": 1,
+      "title": "HIFIMAN-HE400SE",
+      "brand":"HiFiMAN",
+      "mrp":"16,999",
+      "selling_price":"10,999",
+      "sale_price":"9,999",
+      "reviews":30,
+      "rating":4.5,
+      "ourpick":true,
+      "bestseller":true,
+      "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957",
+      "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE400se-1160-1160-7_700x.jpg?v=1614245064",
+      "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE400se-1160-1160-7_700x.jpg?v=1614245064"]
+    
+  },
+  {
+    "id": 2,
+    "title": "HIFIMAN-SUNDARA(2022)",
+    "brand":"HiFiMAN",
+    "mrp":"29,999",
+    "selling_price":"27,999",
+    "sale_price":"24,999",
+    "reviews":77,
+    "rating":5,
+    "ourpick":true,
+    "bestseller":true,
+    "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957",
+    "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Sundara-1160-1160-2_500x.jpg?v=1592332661",
+    "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-Sundara-1160-1160-2_500x.jpg?v=1592332661"]
+  
+},
+{
+  "id": 3,
+  "title": "MEZE-99 CLASSICS",
+  "brand":"Meze Audio",
+  "mrp":"30,999",
+  "selling_price":"28,999",
+  "sale_price":"25,999",
+  "reviews":70,
+  "rating":5,
+  "ourpick":true,
+  "bestseller":true,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Meze-99-Classics-gold-1160-1160-2_300x.jpg?v=1591901373",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/HiFiMAN-HE400SE-01_700x.jpg?v=1614231957","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Meze-99-Classics-gold-1160-1160-2_300x.jpg?v=1591901373"]
+
+},
+{
+  "id": 4,
+  "title": "AUDIO-TECHNICA-ATH-AD500X",
+  "brand":"Audio-Technica",
+  "mrp":"18,999",
+  "selling_price":"11,999",
+  "sale_price":"10,999",
+  "reviews":"",
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-Technica-ATH-AD500X-01_300x.jpg?v=1649395617",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-Technica-ATH-AD500X-02_300x.jpg?v=1649395617",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-Technica-ATH-AD500X-01_300x.jpg?v=1649395617","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Audio-Technica-ATH-AD500X-02_300x.jpg?v=1649395617"]
+
+},
+{
+  "id": 5,
+  "title": "SENNHEISER-HD 650",
+  "brand":"HiFiMAN",
+  "mrp":"49,999",
+  "selling_price":"",
+  "sale_price":"24,999",
+  "reviews":30,
+  "rating":4.5,
+  "ourpick":true,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sennheiser-HD-650-1160-1160-02_300x.jpg?v=1630049196",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sennheiser-HD-650-1160-1160-03_300x.jpg?v=1630049195",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sennheiser-HD-650-1160-1160-02_300x.jpg?v=1630049196","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sennheiser-HD-650-1160-1160-03_300x.jpg?v=1630049195"]
+
+},
+{
+  "id": 6,
+  "title": "BEYERDYNAMIC-DT 880 PRO",
+  "brand":"Beyerdynamic",
+  "mrp":"24,999",
+  "selling_price":"15,999",
+  "sale_price":"14,999",
+  "reviews":15,
+  "rating":5,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/beyerdynamic-dt-880-pro-white-headphone-zone-13981647437887_300x.jpg?v=1599208163",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-DT-880-Pro-1160-1160-1_300x.jpg?v=1599208178",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/beyerdynamic-dt-880-pro-white-headphone-zone-13981647437887_300x.jpg?v=1599208163","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-DT-880-Pro-1160-1160-1_300x.jpg?v=1599208178"]
+
+},
+{
+  "id": 7,
+  "title": "MONOPRICE-MONOLITH M 1060C",
+  "brand":"HiFiMAN",
+  "mrp":"37,999",
+  "selling_price":"32,999",
+  "sale_price":"",
+  "reviews":30,
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060C-3_300x.jpg?v=1649665887",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060C-1_300x.jpg?v=1649665887",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060C-3_300x.jpg?v=1649665887","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Monolith-M1060C-1_300x.jpg?v=1649665887"]
+
+},
+{
+  "id": 8,
+  "title": "HIFIMAN-HE400SE",
+  "brand":"HiFiMAN",
+  "mrp":"16,999",
+  "selling_price":"10,999",
+  "sale_price":"9,999",
+  "reviews":30,
+  "rating":4.5,
+  "ourpick":true,
+  "bestseller":true,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE-R9-Wired-01_700x.jpg?v=1645594110",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE-R9-Wired-02_300x.jpg?v=1645594134",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE-R9-Wired-01_700x.jpg?v=1645594110","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-HiFiMAN-HE-R9-Wired-02_300x.jpg?v=1645594134"]
+
+},
+{
+  "id": 9,
+  "title": "ALTIAT - CAL.1H",
+  "brand":"Altiat",
+  "mrp":"34,999",
+  "selling_price":"29,999",
+  "sale_price":"",
+  "reviews":"",
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Altiat-Cal.1H-Aluminium-Silver-04_300x.jpg?v=1660995288",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Altiat-Cal.1H-07_300x.jpg?v=1660995288",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Altiat-Cal.1H-Aluminium-Silver-04_300x.jpg?v=1660995288","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Altiat-Cal.1H-07_300x.jpg?v=1660995288"]
+
+}
+  
+  ],
+  "IN-EARS_FOR_BEGINNERS": [
+    
+    {
+      "id": 1,
+      "title": "HIFIMAN-HE400SE",
+      "brand":"HiFiMAN",
+      "mrp":"16,999",
+      "selling_price":"10,999",
+      "sale_price":"9,999",
+      "reviews":30,
+      "rating":4.5,
+      "ourpick":true,
+      "bestseller":true,
+      "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-LYRA-Gallery-1160-1160_300x.jpg?v=1659512980",
+      "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-LYRA-01_300x.jpg?v=1659512980",
+      "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-LYRA-Gallery-1160-1160_300x.jpg?v=1659512980","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-LYRA-01_300x.jpg?v=1659512980"]
+    
+  },
+  {
+    "id": 2,
+    "title": "HIFIMAN-SUNDARA(2022)",
+    "brand":"HiFiMAN",
+    "mrp":"29,999",
+    "selling_price":"27,999",
+    "sale_price":"24,999",
+    "reviews":77,
+    "rating":5,
+    "ourpick":true,
+    "bestseller":true,
+    "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZEX-Black-1_300x.jpg?v=1632918357",
+    "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZEX-Black-2_300x.jpg?v=1632918833",
+    "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZEX-Black-1_300x.jpg?v=1632918357","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-KZ-ZEX-Black-2_300x.jpg?v=1632918833"]
+  
+},
+{
+  "id": 3,
+  "title": "MEZE-99 CLASSICS",
+  "brand":"Meze Audio",
+  "mrp":"30,999",
+  "selling_price":"28,999",
+  "sale_price":"25,999",
+  "reviews":70,
+  "rating":5,
+  "ourpick":true,
+  "bestseller":true,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Moondrop-CHU-Without-Mic_300x.jpg?v=1662011091",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Moondrop-CHU-Without-Mic-02_300x.jpg?v=1662011091",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Moondrop-CHU-Without-Mic_300x.jpg?v=1662011091","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Moondrop-CHU-Without-Mic-02_300x.jpg?v=1662011091"]
+
+},
+{
+  "id": 4,
+  "title": "AUDIO-TECHNICA-ATH-AD500X",
+  "brand":"Audio-Technica",
+  "mrp":"18,999",
+  "selling_price":"11,999",
+  "sale_price":"10,999",
+  "reviews":"",
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-CRA-Plus-13_300x.jpg?v=1652356320",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-CRA-Plus-3_300x.jpg?v=1652356320",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-CRA-Plus-13_300x.jpg?v=1652356320","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-CCA-CRA-Plus-3_300x.jpg?v=1652356320"]
+
+},
+{
+  "id": 5,
+  "title": "SENNHEISER-HD 650",
+  "brand":"HiFiMAN",
+  "mrp":"49,999",
+  "selling_price":"",
+  "sale_price":"24,999",
+  "reviews":30,
+  "rating":4.5,
+  "ourpick":true,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-7HZ-Salnotes-ZERO-Black-01_300x.jpg?v=1660714478",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/headphone-Zone-7HZ-Salnotes-ZERO-Black-02_300x.jpg?v=1660714478",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-7HZ-Salnotes-ZERO-Black-01_300x.jpg?v=1660714478","https://cdn.shopify.com/s/files/1/0153/8863/products/headphone-Zone-7HZ-Salnotes-ZERO-Black-02_300x.jpg?v=1660714478"]
+
+},
+{
+  "id": 6,
+  "title": "BEYERDYNAMIC-DT 880 PRO",
+  "brand":"Beyerdynamic",
+  "mrp":"24,999",
+  "selling_price":"15,999",
+  "sale_price":"14,999",
+  "reviews":15,
+  "rating":5,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-E500-1160-1160-1_300x.jpg?v=1637828011",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E500-new_300x.jpg?v=1651153077",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-E500-1160-1160-1_300x.jpg?v=1637828011","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E500-new_300x.jpg?v=1651153077"]
+
+},
+{
+  "id": 7,
+  "title": "MONOPRICE-MONOLITH M 1060C",
+  "brand":"HiFiMAN",
+  "mrp":"37,999",
+  "selling_price":"32,999",
+  "sale_price":"",
+  "reviews":30,
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E10C-1160-1160-gun-black_300x.jpg?v=1617094947",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E10C-1160-1160_300x.jpg?v=1617094947",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E10C-1160-1160-gun-black_300x.jpg?v=1617094947","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E10C-1160-1160_300x.jpg?v=1617094947"]
+
+},
+{
+  "id": 8,
+  "title": "HIFIMAN-HE400SE",
+  "brand":"HiFiMAN",
+  "mrp":"16,999",
+  "selling_price":"10,999",
+  "sale_price":"9,999",
+  "reviews":30,
+  "rating":4.5,
+  "ourpick":true,
+  "bestseller":true,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/soundmagic-e11c-black-headphone-zone-5369095847999_300x.jpg?v=1580360044",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E11C-1160-1160-black_300x.jpg?v=1649233095",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/soundmagic-e11c-black-headphone-zone-5369095847999_300x.jpg?v=1580360044","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-SoundMAGIC-E11C-1160-1160-black_300x.jpg?v=1649233095"]
+
+},
+{
+  "id": 9,
+  "title": "ALTIAT - CAL.1H",
+  "brand":"Altiat",
+  "mrp":"34,999",
+  "selling_price":"29,999",
+  "sale_price":"",
+  "reviews":"",
+  "rating":0,
+  "ourpick":false,
+  "bestseller":false,
+  "image_a":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-VR3000-01_300x.jpg?v=1633351900",
+  "image_b":"https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-VR3000-New_300x.jpg?v=1651152371",
+  "image_arr":["https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-VR3000-01_300x.jpg?v=1633351900","https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-VR3000-New_300x.jpg?v=1651152371"]
+
+}
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
