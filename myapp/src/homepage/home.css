@@ -1,0 +1,109 @@
+.Hero_caption .carousel-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.ceroContent .carousel-indicators{
+    align-items: end;
+}
+
+.ceroContent a{
+    display: none;
+}
+.offer_card{
+    background-color: #F3F3F3;
+    width:16rem;
+    padding: 10px 0;
+    height: auto;
+}
+
+.offer_card>img{
+    width: 100%;
+}
+.offer_card_con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    justify-items: center;
+}
+.Finance_card{
+  
+width: 80%;
+}
+.Finance_card>h3 ,.Finance_card>p{
+    text-align: start;
+}
+.finance_box{
+    background-color:#F3F3F3 ;
+}
+.finance_con{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+width: 70%;
+margin: auto;
+gap:30px;
+padding: 30px;
+
+}
+.cat_extra{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  align-items:end;
+  /* padding: 0px 40px; */
+  gap:1%;
+  overflow:hidden;
+  width: 70%;
+  margin: auto;
+}
+.cat_extra>a>img{
+    width: 50%;
+}
+.cat_extra>a>p{
+    font-size: 11px;
+    
+}
+.cat_extra>a{
+    text-decoration: none;
+    color: black;
+}
+
+.addvertise_vidio>iframe{
+    width: 100vw;
+    height: 100vh;
+}
+
+.launch_card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    padding: 20px;
+}
+.over_text>.card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sponser_box{
+
+    background-color:#F3F3F3 ;
+    padding: 30px;
+}
+.Sponser_button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color:white;
+    color: black;
+    border: 0px;
+}
+.Sponser_button:hover{
+    background-color:#F3F3F3;
+    
+}
+.sponser_con{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+}

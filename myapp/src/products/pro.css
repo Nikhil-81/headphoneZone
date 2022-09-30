@@ -38,3 +38,27 @@
     justify-content: end;
     margin-right: 10px;
 }
+.proside{
+    background-color: rgb(243, 243, 243);
+    padding: 20PX 20PX;
+    height: 100%;
+}
+
+.pro_body{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+    
+.procard_deco{
+    display: flex;
+    gap:5px;
+    padding: 10px;
+
+}
+
+.overlay_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

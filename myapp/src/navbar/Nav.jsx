@@ -64,7 +64,9 @@ export default function NavBar(){
         <div className="Nav_body">
 
         <div className="nav_brand_logo" >
+            <Link to="/">
             <img src={logo_brand} />
+            </Link>
         </div>
         <div className="Nav_compo" >
             <button onClick={()=>setblock(block=="category"?"":"category")} >Categories</button>

@@ -1,0 +1,18 @@
+.footer_con{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: start;
+
+}
+.footer_logo{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_con div{
+
+    text-align: start;
+}
+.com{
+    padding: 35px;
+    background-color: #F3F3F3;
+}

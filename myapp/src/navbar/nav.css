@@ -14,8 +14,8 @@
     position: relative;
     width: 100vw;
 }
-.nav_brand_logo>img{
-    width: 50%;
+.nav_brand_logo>a>img{
+    width: 60%;
 }
 .nav_brand_logo>p{
     font-size: 14px;
