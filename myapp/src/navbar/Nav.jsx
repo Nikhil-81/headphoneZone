@@ -14,7 +14,6 @@ import game from "../logo_pic/logo/game.PNG"
 import head from "../logo_pic/logo/head.PNG"
 import t_wireless_ear from "../logo_pic/logo/t_wireless_ear.PNG"
 import pro from "../logo_pic/logo/pro.PNG"
-
 import logo_earphone from "../logo_pic/logo/earphone.svg"
 import logo_brand from "../logo_pic/logo/B_logo.gif"
 import Cat_com from "./cat_com"
@@ -25,6 +24,8 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState } from "react";
 import { Link } from "react-router-dom"
+import { Addcontext } from "../context/context"
+import { useContext } from "react"
 const cat_list=[
     {cat_logo:ear,cat_name:"IN-EARS_FOR_BEGINNERS"},
     {cat_logo:cap,cat_name:"HEADPHONES_FOR_BIGINNERS"},
@@ -47,6 +48,7 @@ const cat_list=[
 const brand_array=["1Custom","64 Audio","Abyss","AIAIAI","AKG","ALO Audio","Altiat","Astell&Kern","Audeze","Audio-Technica","AudioQuest","Aune Audio","Austrian Audio","AZLA","Bang & Olufsen","Beyerdynamic","BLON","Bowers & Wilkins","Burson Audio","Campfire Audio","Cayin","CCA","Chord Electronics","Comply","Dali","Dan Clark Audio","DarkVoice","ddHiFi","Dekoni Audio","Denafrips","Devialet","EarMen","Effect Audio","EIKON","EPOS","Etymotic","FiiO","Final Audio","Focal","Gold Planar","Grado","Gustard","HarmonicDyne","Headgear Audio","Headphone Zone","HEDD Audio","HiBy","Hidizs","HiFiMAN","iBasso","iFi Audio","IKKO","Jabra","JAYS","JBL","JH Audio","JVC","Klipsch","KZ Acoustics","LETSHUOER","Little Dot","Lotoo","Lypertek","Mangird","Marshall","Matrix Audio","MEE Audio","Meze Audio","Monoprice","Moondrop","Naim","Noble Audio","oBravo","RAAL-requisite","Razer","RAPTGO","RME","Schiit","Sennheiser","Shanling","Shure","Singxer","SMSL","Sonos","Sony","SoundMAGIC","SpinFit","STAX","Tanchjim","TempoTec","ThieAudio","TIN HiFi","TOPPING","Tripowin","Unique Melody","Venture Electronics","Violectric","Vision Ears","V-MODA","Westone Audio","Woo Audio","xDuoo","7HZ"]
 
 export default function NavBar(){
+    const {state}=useContext(Addcontext)
     const [block,setblock]=useState("")
 
     const showBlock={
@@ -81,7 +83,7 @@ export default function NavBar(){
         </div>
         <div className="nav_comp2">
             <p>Search</p>
-            <p><Link to="/login" >Login</Link></p>
+            <p> {state.isauth?(<Link to="/user">Acount</Link>):<Link to="/login" >Login</Link>}   </p>
             <p>cart</p>
         </div>
        </div>

@@ -1,4 +1,6 @@
 import {Route, Routes} from "react-router-dom"
+import UserAccount from "../account/account"
+
 import Home from "../homepage/Home"
 import Login from "../login/Login"
 import Products from "../products/Products"
@@ -11,7 +13,8 @@ export default function AllRoutes(){
                 <Route path={"/"} element={<Home/>} />
                 <Route path={"/:name"} element={<Products/>} />
                 <Route path={"/login"} element={<Login/>} />
-                <Route path={"/creat_accout"} element={<SingIn/>} />
+                <Route path={"/creat_accout"} element={<SingIn/> } />
+                <Route path={"/user"} element={<UserAccount/>} />
                 <Route path={"/:name/:id"} element={<Single_pro/>} />
             </Routes>
         </div>

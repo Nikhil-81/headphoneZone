@@ -6,14 +6,17 @@ import Products from "./products/Products"
 import AllRoutes from './routes/all_routes';
 import Footer from './footer/footer';
 import Contextprovider from './context/context';
+import SingContextprovider from './singIn/sinContext';
 function App() {
   return (
     <div className="App">
       <Contextprovider>
+<SingContextprovider>
 
       <NavBar/>
       <AllRoutes/>
       <Footer/>
+</SingContextprovider>
       </Contextprovider>
      
 
