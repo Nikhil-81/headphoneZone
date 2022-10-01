@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import UncontrolledExample from "./hero_cero"
 import "./pro.css"
 import Product_card from "./product_card"
@@ -109,10 +109,12 @@ function prepare_Sort(val){
             <div className="pro_card_con">
             {data && data.map(el=>
             { return (
+                <Link to={`/${params.name}/${el.id}`} >
                 <Product_card pro_image={el.image_a}
                 pro_title={el.title}  mrp_price={`MRP:${el.mrp}`} 
                 selling_price={`selling price:${el.selling_price}`} 
                 sell_price={`sell price:${el.sale_price}`} revievs={`${el.reviews} reviews`}  />
+                </Link>
                 )  })}
             </div>
             </div>

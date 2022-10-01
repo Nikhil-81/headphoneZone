@@ -1,0 +1,10 @@
+.LofInform{
+    width: 30%;
+    margin: auto;
+}
+.LogIn_button{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: center;
+}

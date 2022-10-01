@@ -81,7 +81,7 @@ export default function NavBar(){
         </div>
         <div className="nav_comp2">
             <p>Search</p>
-            <p>Login</p>
+            <p><Link to="/login" >Login</Link></p>
             <p>cart</p>
         </div>
        </div>
