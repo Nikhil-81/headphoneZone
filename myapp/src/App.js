@@ -7,16 +7,20 @@ import AllRoutes from './routes/all_routes';
 import Footer from './footer/footer';
 import Contextprovider from './context/context';
 import SingContextprovider from './singIn/sinContext';
+import AddresscontextProvider from './account/pages/contextaddress';
 function App() {
   return (
     <div className="App">
       <Contextprovider>
-<SingContextprovider>
+        <AddresscontextProvider>
+
+        <SingContextprovider>
 
       <NavBar/>
       <AllRoutes/>
       <Footer/>
-</SingContextprovider>
+      </SingContextprovider>
+        </AddresscontextProvider>
       </Contextprovider>
      
 

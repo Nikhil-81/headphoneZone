@@ -1,0 +1,41 @@
+.single_pro_box {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.single_pro_box .carousel-control-next{
+    width: 100%;
+    justify-content: end;
+    color: black;
+}
+
+
+.single_pro_box .carousel-indicators{
+    align-items: end;
+}
+.single_pro_col{
+background-color: white;
+
+}
+
+.AdDCart_button{
+    padding:10px 50px;
+    background: #3C07FF;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+}
+
+.Info_con{
+    text-align: start;
+}
+
+.SellPrice{
+    color:#3C07FF
+}
+.single_proCon{
+    padding:20px
+}
+
+

@@ -62,3 +62,7 @@
     align-items: center;
     justify-content: center;
 }
+.pro_card{
+    text-decoration: none;
+    color: black;
+}

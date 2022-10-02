@@ -1,0 +1,49 @@
+.accountsidebar{
+    /* background-color: grey; */
+    height: auto;
+}
+.accountDisplay{
+background-color: white;
+height: 100vh;
+}
+.Account_box{
+   padding:30px 0px
+}
+
+.accountButton{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+    
+}
+.accountsidebar>.button_con {
+    width: 100%;
+}
+ .activestyle{
+    color:wheat;
+    background:black
+ }
+  .nonActivestyle{
+    color:black;
+    background:white
+ }
+ .profile_con{
+    display: flex;
+    align-items: baseline;
+ }
+ .profile_Box{
+    padding: 50px;
+ }
+ .AddNew_address{
+    border: 1px darkgray ;
+    border-style: dotted;
+    
+ }
+ .AddNew_address>img{
+padding: 30px;
+ }
+
+ .address_block{
+   border:1px solid gray   
+}
