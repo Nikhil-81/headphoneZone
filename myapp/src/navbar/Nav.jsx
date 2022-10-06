@@ -84,7 +84,7 @@ export default function NavBar(){
         <div className="nav_comp2">
             <p>Search</p>
             <p> {state.isauth?(<Link to="/user">Acount</Link>):<Link to="/login" >Login</Link>}   </p>
-            <p>cart</p>
+            <Link to="/cart" ><p>cart</p></Link>
         </div>
        </div>
        <div  style={block=='category'?showBlock:hideBlock} >

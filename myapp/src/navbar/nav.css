@@ -13,6 +13,8 @@
     padding: 20px 0;
     position: relative;
     width: 100vw;
+    position: static;
+    top:0
 }
 .nav_brand_logo>a>img{
     width: 60%;

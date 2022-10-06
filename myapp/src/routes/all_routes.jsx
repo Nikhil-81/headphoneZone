@@ -1,5 +1,6 @@
 import {Route, Routes} from "react-router-dom"
 import UserAccount from "../account/account"
+import Cart from "../cart/cart"
 
 import Home from "../homepage/Home"
 import Login from "../login/Login"
@@ -16,6 +17,8 @@ export default function AllRoutes(){
                 <Route path={"/creat_accout"} element={<SingIn/> } />
                 <Route path={"/user"} element={<UserAccount/>} />
                 <Route path={"/:name/:id"} element={<Single_pro/>} />
+                <Route path={"/cart"} element={<Cart/>} />
+                
             </Routes>
         </div>
     )

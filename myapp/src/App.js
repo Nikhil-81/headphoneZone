@@ -10,10 +10,13 @@ import Footer from './footer/footer';
 import Contextprovider from './context/context';
 import SingContextprovider from './singIn/sinContext';
 import AddresscontextProvider from './account/pages/contextaddress';
+import Cart_context_Provider from './cart/cart_context';
 function App() {
   return (
     <div className="App">
       <Contextprovider>
+
+        <Cart_context_Provider>
         <AddresscontextProvider>
 
         <SingContextprovider>
@@ -23,6 +26,7 @@ function App() {
       <Footer/>
       </SingContextprovider>
         </AddresscontextProvider>
+        </Cart_context_Provider>
       </Contextprovider>
      
 

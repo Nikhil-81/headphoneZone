@@ -1,12 +1,13 @@
 import axios from "axios"
-import { useState } from "react"
+import { useContext, useState } from "react"
 import { useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import "./single.css"
+import { add_cart_context } from "../cart/cart_context";
 
 
 
@@ -16,11 +17,13 @@ function getData(id,name){
 export default function Single_pro(){
     const {id,name}=useParams()
     const [data,setdata]=useState([])
+    const {hendle_cart_click}=useContext(add_cart_context)
     useEffect(()=>{
         getData(id,name).then(res=>setdata(res.data)).catch(err=>console.log(err))
-    },[])
+      },[])
     console.log(data)
     return (
+
         <div className="single_proCon" >
               <Container >
       <Row  >
@@ -56,7 +59,7 @@ export default function Single_pro(){
         <span Style={"Display:flex;justify-content:center"} ><p>Fastival of Sound Price :</p><h3 className="SellPrice" >Sell Price:{data.sale_price}</h3> </span>
         <p>Or ₹ 533 (Simpl/Axio/Bajaj/Zest/Cards) </p>
         <p>Includes GST of ₹ 244 </p>
-        <button className="AdDCart_button" >Add To Card</button>
+         <button onClick={()=>hendle_cart_click(data)} className="AdDCart_button" >Add To Card</button>
         </div>
        
         </Col>

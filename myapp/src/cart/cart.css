@@ -1,0 +1,11 @@
+.cart_item{
+    width: 50%;
+}
+
+.cart_qty_button{
+    display:flex;
+    /* align-items: center; */
+}
+.cart_pro_img{
+    width: 50%;
+}
