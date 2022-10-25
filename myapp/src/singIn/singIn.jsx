@@ -4,13 +4,14 @@ import Form from 'react-bootstrap/Form';
 import "./sing.css"
 import { AddSingcontext } from './sinContext';
 import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 export default function SingIn(){
 
   const {hendlechange,userstate,hendleSubmit} =useContext(AddSingcontext)
     return (
         <div  className='SingInForm' >
             <h1>Ragister</h1>
-            <Form onSubmit={(e)=>hendleSubmit(e)}  >
+            <Form onSubmit={(e)=>hendleSubmit(e)} >
             <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Control type="text" placeholder="First Name" name="firstname" onChange={(e)=>hendlechange(e)}  />
       </Form.Group>
@@ -37,6 +38,12 @@ export default function SingIn(){
       <Button variant="primary" type="submit">
         Creat Account
       </Button>
+      <p>Already have account !</p>
+     <Link to="/login" >
+     <Button variant="primary" type="submit">
+        Login In
+      </Button>
+     </Link> 
     </Form>
         </div>
     )

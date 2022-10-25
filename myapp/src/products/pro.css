@@ -63,6 +63,9 @@
     justify-content: center;
 }
 .pro_card{
-    text-decoration: none;
     color: black;
+}
+.proCard_link{
+    text-decoration: none;
+
 }

@@ -1,6 +1,7 @@
 .LofInform{
     width: 30%;
     margin: auto;
+    text-align: start;
 }
 .LogIn_button{
     display: flex;

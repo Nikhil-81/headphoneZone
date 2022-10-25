@@ -120,3 +120,21 @@
 text-decoration: none;
 color: black;
 }
+.cart_display{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap:0.3rem
+}
+.cart_display>img{
+    width: 1.9rem;
+}
+
+.cart_display>p{
+    color: black;
+}
+.Log_Acc>a{
+    text-decoration: none;
+    color: black;
+
+}

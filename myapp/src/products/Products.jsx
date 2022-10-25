@@ -109,7 +109,7 @@ function prepare_Sort(val){
             <div className="pro_card_con">
             {data && data.map(el=>
             { return (
-                <Link to={`/${params.name}/${el.id}`} >
+                <Link to={`/${params.name}/${el.id}`} className="proCard_link" >
                 <Product_card pro_image={el.image_a}
                 pro_title={el.title}  mrp_price={`MRP:${el.mrp}`} 
                 selling_price={`selling price:${el.selling_price}`} 

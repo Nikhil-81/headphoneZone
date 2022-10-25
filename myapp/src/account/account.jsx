@@ -35,15 +35,15 @@ function hendleActive(e){
    return(
     <div className='Account_box' >
   <Container>
-      <Row>
-        <Col   xl={4} md={14} sm={12}> 
+      <Row >
+        <Col   xl={4} md={14} sm={12} className="Account_box1"> 
 
         <div className='accountsidebar' >
-<Container><Row  >
-         <Col xl={12} md={3}  sm={3}  ><h5   onClick={(e)=>hendleActive(e)}  className={Actag=="Profil"?"activestyle":"nonActivestyle"} >Profil</h5></Col>
-         <Col xl={12} md={3}  sm={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="Contect Us"?"activestyle":"nonActivestyle"}  >Contect Us</h5></Col>
-         <Col xl={12} md={3}  sm={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="My Orders"?"activestyle":"nonActivestyle"}  >My Orders</h5></Col> 
-         <Col xl={12} md={3}  sm={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="Address"?"activestyle":"nonActivestyle"}  >Address</h5></Col> 
+<Container><Row  className="account_Nav">
+         <Col xl={12} md={3}  sm={3}  xs={3}  ><h5   onClick={(e)=>hendleActive(e)}  className={Actag=="Profil"?"activestyle":"nonActivestyle"} >Profil</h5></Col>
+         <Col xl={12} md={3}  sm={3}  xs={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="Contect Us"?"activestyle":"nonActivestyle"}  >Contect Us</h5></Col>
+         <Col xl={12} md={3}  sm={3}  xs={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="My Orders"?"activestyle":"nonActivestyle"}  >My Orders</h5></Col> 
+         <Col xl={12} md={3}  sm={3}  xs={3} ><h5    onClick={(e)=>hendleActive(e)} className={Actag=="Address"?"activestyle":"nonActivestyle"}  >Address</h5></Col> 
    </Row></Container>
         </div>
    </Col>    

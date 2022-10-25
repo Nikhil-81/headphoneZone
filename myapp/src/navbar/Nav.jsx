@@ -1,3 +1,7 @@
+
+// import {useContext} from "react"
+import {add_cart_context} from "../cart/cart_context"
+
 import ear from "../logo_pic/logo/ear.PNG"
 import speker from "../logo_pic/logo/speker.PNG"
 import amps from "../logo_pic/logo/amps.PNG"
@@ -16,6 +20,7 @@ import t_wireless_ear from "../logo_pic/logo/t_wireless_ear.PNG"
 import pro from "../logo_pic/logo/pro.PNG"
 import logo_earphone from "../logo_pic/logo/earphone.svg"
 import logo_brand from "../logo_pic/logo/B_logo.gif"
+import cart_img from "./Nav_image/cart_img.svg"
 import Cat_com from "./cat_com"
 import "./nav.css" 
 import Container from 'react-bootstrap/Container';
@@ -49,6 +54,7 @@ const brand_array=["1Custom","64 Audio","Abyss","AIAIAI","AKG","ALO Audio","Alti
 
 export default function NavBar(){
     const {state}=useContext(Addcontext)
+    const {cart}=useContext(add_cart_context)
     const [block,setblock]=useState("")
 
     const showBlock={
@@ -58,6 +64,7 @@ export default function NavBar(){
     const hideBlock={
         display:"none"
     }
+    
 
 
 
@@ -83,8 +90,8 @@ export default function NavBar(){
         </div>
         <div className="nav_comp2">
             <p>Search</p>
-            <p> {state.isauth?(<Link to="/user">Acount</Link>):<Link to="/login" >Login</Link>}   </p>
-            <Link to="/cart" ><p>cart</p></Link>
+            <p className="Log_Acc"> {state.isauth?(<Link to="/user">Acount</Link>):<Link to="/login" >Login</Link>}   </p>
+            <Link to="/cart" className="cart_display"><img src={cart_img} /><p>{cart.items.length}</p></Link>
         </div>
        </div>
        <div  style={block=='category'?showBlock:hideBlock} >

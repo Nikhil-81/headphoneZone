@@ -47,3 +47,9 @@ padding: 30px;
  .address_block{
    border:1px solid gray   
 }
+.account_Nav{
+   cursor: pointer;
+}
+.Account_box1{
+   border-right: 1px solid gray
+}
