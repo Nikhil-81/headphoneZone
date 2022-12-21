@@ -84,14 +84,14 @@ function prepare_Sort(val){
                  <Card className="bg-dark text-white">
       <Card.Img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Sennheiser-HD650-Mini-banner_580x.jpg?v=1664182155" alt="Card image" />
       <Card.ImgOverlay className="overlay_title" >
-        <Card.Title>REVISET THE CLASSIC!</Card.Title>
+        <h5 className="product_page_branding" >REVISET THE CLASSIC!</h5>
       
       </Card.ImgOverlay>
     </Card>
     <Card className="bg-dark text-white">
       <Card.Img src="https://cdn.shopify.com/s/files/1/0153/8863/files/beginner-headphones-mini-bannners-3_580x.jpg?v=1652248340" alt="Card image" />
       <Card.ImgOverlay  className="overlay_title">
-        <Card.Title>MELODIC & PURE!</Card.Title>
+        <h5 className="product_page_branding" >MELODIC & PURE!</h5>
       
       </Card.ImgOverlay>
     </Card>

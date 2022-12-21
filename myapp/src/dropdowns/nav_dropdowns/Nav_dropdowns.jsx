@@ -38,7 +38,7 @@ export const Overlay_Brands=()=> {
   
     return (
       <div Style={"box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;padding:0.2rem"} >
-        <h3 Style={"text-align:center"} onClick={handleShow} >Brands</h3>
+        <h4 Style={"text-align:center"} onClick={handleShow} >Brands</h4>
   
         <Modal show={show} onHide={handleClose} fullscreen="xxl-down">
           <Modal.Header closeButton>

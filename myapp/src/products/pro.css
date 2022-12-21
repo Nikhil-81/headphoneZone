@@ -13,9 +13,11 @@
 .cero_item .carousel-indicators {
     align-items: end;
 }
-.pro_card_con{
+.pro_card_con {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
+    gap: 1rem;
 }
 .pro_card img{
     width:60%
@@ -68,4 +70,27 @@
 .proCard_link{
     text-decoration: none;
 
+}
+@media screen and (max-width:650px) {
+    .pro_body {
+        display: block;
+    }
+    .pro_body>div:first-child{
+        display: none;
+    } 
+    .pro_card_con {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .product_page_branding{
+        font-size: 13.5px;
+    }
+    .pro_card{
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        height: 260px;
+        padding: 0.5rem;
+    }
+    
 }
