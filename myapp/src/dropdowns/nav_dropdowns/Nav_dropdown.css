@@ -1,0 +1,50 @@
+.overlay_category{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+.overlay_category>a{
+    text-decoration: none;
+    color: black;
+}
+
+.cat_com img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.cat_com p {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+@media screen  and (max-width:800px) {
+    .overlay_category{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+    }
+}
+@media screen  and (max-width:600px) {
+    .overlay_category{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .cat_com img {
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+    .cat_com p {
+        font-size: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+.overlay_Sponser_button{
+padding: 1rem 2rem;
+border: none;
+border-radius: 0.9rem;
+}

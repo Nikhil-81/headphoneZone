@@ -107,3 +107,102 @@ padding: 30px;
     grid-template-columns: repeat(7,1fr);
 
 }
+@media screen and (max-width: 960px) {
+    .offer_card_con{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px;
+        justify-items: center;
+    }
+    .cat_extra{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items:end;
+        /* padding: 0px 40px; */
+        gap:1%;
+        overflow:hidden;
+        width: 70%;
+        margin: auto;
+      }
+      .footer_con {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: start;
+    }
+  }
+  @media screen and (max-width: 889px) {
+ 
+    .sponser_con {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .launch_card {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 20px;
+    }
+  
+  }
+  @media screen and (max-width: 582px) {
+    .offer_card_con{
+        display: none;
+       
+    }
+    .lines_no_one_cares{
+        display: none;
+    }
+    .cat_extra{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items:end;
+        /* padding: 0px 40px; */
+        gap:1%;
+        overflow:hidden;
+        width: 70%;
+        margin: auto;
+        height: 1090px;
+      }
+   .finance_box{
+    display: none;
+   }
+    .addvertise_vidio{
+    display: none;
+    }
+    .sponser_box {
+        background-color: #F3F3F3;
+        padding: 30px;
+        height: 500px;
+        overflow-y: scroll;
+    }
+    .sponser_con {
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.launch_card {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 420px) {
+    .sponser_con {
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+  }
+
+
+
+

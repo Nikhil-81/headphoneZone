@@ -1,3 +1,4 @@
+import HomeCerosel from "../image/homeCerosel";
 import NavBar from "../navbar/Nav";
 import Category from "./category";
 
@@ -10,10 +11,10 @@ import Sponser from "./sponser";
 export default function Home(){
     return (<div>
         <Hero/>
-        <br/>
-        <p><b>HEY NOW, HEY NOW, THIS IS WHAT DREAMS ARE MADE OF</b></p>
-        <h3><b>HANDPICKED DEALS FOR THE AUDIOPHILE IN YOU</b></h3>
-        <br/>
+        
+        <p className="lines_no_one_cares" ><b>HEY NOW, THIS IS WHAT DREAMS ARE MADE OF</b></p>
+        <h3 className="lines_no_one_cares" ><b>HANDPICKED DEALS FOR THE AUDIOPHILE IN YOU</b></h3>
+        
         <Offers/>
         <br/>
         <br/>
@@ -46,6 +47,7 @@ export default function Home(){
 <Sponser/>
 <br/>
 <br/>
+
     </div>)
 }
 

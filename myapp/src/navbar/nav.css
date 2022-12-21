@@ -138,3 +138,22 @@ color: black;
     color: black;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .Nav_compo{
+        display: none;
+    }
+    .nav_comp2{
+        display: none;
+
+    }
+    .nav_brand_logo{
+        width: 170%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .nav_brand_logo{
+        width: 260%;
+    }
+  }

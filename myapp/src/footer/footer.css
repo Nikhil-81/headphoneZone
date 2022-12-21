@@ -16,3 +16,29 @@
     padding: 35px;
     background-color: #F3F3F3;
 }
+
+
+@media screen and (max-width: 889px) {
+ 
+    .footer_con {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: start;
+        gap:20px
+    }
+  
+  }
+
+  @media screen and (max-width: 500px) {
+ 
+    .footer_con {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: start;
+        column-gap:20px;
+        row-gap:40px;
+
+
+    }
+  
+  }

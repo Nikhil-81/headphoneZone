@@ -31,6 +31,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom"
 import { Addcontext } from "../context/context"
 import { useContext } from "react"
+import Nav_overlay from ".././overlay/nav_overlay/nav_overlay"
 const cat_list=[
     {cat_logo:ear,cat_name:"IN-EARS_FOR_BEGINNERS"},
     {cat_logo:cap,cat_name:"HEADPHONES_FOR_BIGINNERS"},
@@ -85,14 +86,19 @@ export default function NavBar(){
             <button>Headphone Finder</button>
             <button>Events</button>
             <button>Forum</button>
+        
             <button onClick={()=>setblock(block=="Info"?"":"Info")} >Info</button>
             <button>Help Center</button>
+
         </div>
         <div className="nav_comp2">
             <p>Search</p>
             <p className="Log_Acc"> {state.isauth?(<Link to="/user">Acount</Link>):<Link to="/login" >Login</Link>}   </p>
             <Link to="/cart" className="cart_display"><img src={cart_img} /><p>{cart.items.length}</p></Link>
+
         </div>
+        <Nav_overlay/>
+
        </div>
        <div  style={block=='category'?showBlock:hideBlock} >
         <div className="nav_cat" >
@@ -151,6 +157,8 @@ export default function NavBar(){
 
         </div>
        </div>
+       
+
         </div>
     )
 }

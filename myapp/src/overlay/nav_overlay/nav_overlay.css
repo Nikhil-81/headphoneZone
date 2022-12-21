@@ -1,0 +1,13 @@
+
+  .nav_overlay{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .nav_overlay{
+        display: block;
+        grid-column: 3/4;
+    }
+  }
+  .offcanvas{
+    width:270px !important;
+  }
